@@ -212,7 +212,7 @@
       tr.life-=0.08;
     }
     ctx.globalAlpha=1;
-    var bob=Math.sin(t*0.22)*3, s=p.s;
+    var bob=Math.sin(t*0.22)*3, s=p.s*1.7;
     ctx.save(); ctx.translate(p.x, p.y-18*s+bob);
     ctx.fillStyle='#3d6b28'; ctx.fillRect(-22*s, -8*s, 44*s, 28*s);
     ctx.fillStyle='#62b04a'; ctx.fillRect(-20*s, -18*s, 40*s, 22*s);
